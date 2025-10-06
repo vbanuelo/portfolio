@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betty Boop - The Original Animated Star</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+            color: #fff;
+            font-family: 'Playfair Display', serif;
+            line-height: 1.6;
+        }
+        
+        header {
+            text-align: center;
+            padding: 80px 20px 60px;
+            background: linear-gradient(135deg, #ff1744, #d50000);
+            box-shadow: 0 10px 30px rgba(255, 23, 68, 0.3);
+        }
+        
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 4rem;
+            font-weight: 700;
+            text-shadow: 3px 3px 10px rgba(0,0,0,0.6);
+            margin-bottom: 15px;
+            animation: gentleGlow 3s ease-in-out infinite alternate;
+        }
+                        
+        .subtitle {
+            font-size: 1.5rem;
+            opacity: 0.9;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+        }
+        
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        
+        .attention {
+            text-align: center;
+            margin-bottom: 60px;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            border: 1px solid rgba(255, 23, 68, 0.2);
+            backdrop-filter: blur(5px);
+        }
+        
+        .intro {
+            font-size: 1.8rem;
+            line-height: 1.5;
+            margin-bottom: 25px;
+            font-style: italic;
+        }
+        
+        .boop-quote {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.5rem;
+            color: #ff1744;
+            margin: 30px 0;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+            transform: rotate(-1deg);
+        }
+        
+      /* I added this because I wanted to add some side by side instead of all vertical information. */
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .card {
+            background: rgba(255, 23, 68, 0.1);
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 23, 68, 0.25);
+            transition: all 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(255, 23, 68, 0.2);
+            background: rgba(255, 23, 68, 0.15);
+        }
+        
+        .card h2 {
+            font-size: 1.6rem;
+            margin-bottom: 15px;
+            color: #ff1744;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        }
+        
+        .card p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+      
+      a:hover {
+        color: red;
+      }
+        
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            background: #1a1a1a;
+            margin-top: 60px;
+            border-top: 2px solid #ff1744;
+        }
+        
+        .footer-text {
+            font-size: 1.1rem;
+            opacity: 0.8;
+        }
+        
+        /* Simple floating hearts */
+        .floating-heart {
+            position: fixed;
+            color: white;
+            font-size: 1.5rem;
+            opacity: 0.15;
+            pointer-events: none;
+            z-index: 1;
+            animation: simpleFloat 6s ease-in-out infinite;
+        }
+        
+        @keyframes simpleFloat {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+                
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Betty Boop</h1>
+        <p class="subtitle">The Woman, The Myth, The Legend</p>
+    </header>
+    
+    <main>
+        <section class="attention">
+            <p class="intro">Not too shabby for a cartoon character that started out as a dog!</p>
+          <div class="box">
+  <img
+       width= 300px;
+    alt="Betty Boop blowing a kiss over her shoulder while winking at you."
+    src="https://w0.peakpx.com/wallpaper/268/175/HD-wallpaper-betty-boop-black.jpg" />
+</div>
+            <div class="boop-quote">"Boop-oop-a-doop!"</div>
+        </section>
+        <div class="content-grid">
+            <div class="card">
+                <h2>The Birth of an Icon</h2>
+                <p>Created by animator Max Fleischer in 1930, Betty Boop became the epitome of the Jazz Age spirit. With her flapper style and infectious personality, she captured hearts worldwide. Her original drawing was that of a dog.</p>
+            </div>
+          <div class="card">
+             <img
+       width= 300px;
+    alt="Left side shows original Betty Boop character as a dog. Right side is the updated humanized version."
+    src="https://dogadayproject.com/wp-content/uploads/48ED7853-37B9-4893-8DE6-90A6945142C6-700x700.jpeg" />
+          </div>
+            
+            <div class="card">
+                <h2>Cultural Impact</h2>
+                <p>Betty Boop represented the liberated woman of the 1920s and 30s. Her bold personality and signature catchphrase made her a cultural phenomenon that influenced fashion and popular culture.</p>
+            </div>
+            
+            <div class="card">
+                <h2>Artistic Legacy</h2>
+                <p>The character's distinctive art style revolutionized animation. Betty's expressive animations set new standards for character design and storytelling in the medium.</p>
+            </div>
+            
+            <div class="card">
+                <h2>Timeless Appeal</h2>
+                <p>Nearly a century later, Betty Boop remains an enduring symbol of glamour and fun. Her image continues to appear in contemporary media, proving that great design stands the test of time.</p>
+            </div>
+          <div class="card">
+                <h2>Contact Information</h2>
+            <ul>
+              <li>Email: <a href="mailto:admin@bettyboopshop.com">admin@bettyboopshop.com</a> </li>
+        <li>Web: <a href="https://bettyboopshop.com/en-us">https://bettyboopshop.com/en-us</a></li>
+    </ul>
+        </div>
+    </main>
+    
+    <footer>
+      <p class="footer-text">If only I could have those body dimensions... <br></br></p>
+      <img
+      padding: 10px
+      alt= "Betty Boop in a black cocktail dress"
+           src= https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivS31N0sKbgAZxHPIxPwau4rgOU1JpNAzIZgKYV5Etm9vzJaNLCagqf9DC0ngfZXyQR8e2ozKvjBrA7YmVQtY0_mg6Ufmz4y1VriVS7lfmNMAkHI1ixGFp_3f2llDaV5_YGkrUtWdJK48/s1600/Betty-Boop-free-printables-136.jpg
+      </img>
+    </footer>
+    
+    <!-- Simple floating elements -->
+    <div class="floating-heart" style="top: 25%; left: 10%;">♥  ♥   ♥   ♥   ♥</div>
+    <div class="floating-heart" style="top: 65%; right: 15%; animation-delay: 2s;">♥   ♥   ♥   ♥   ♥</div>
+    <div class="floating-heart" style="top: 80%; left: 20%; animation-delay: 4s;">♥   ♥   ♥   ♥  ♥</div>
+    
+    </body>
+</html>
