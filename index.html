@@ -30,8 +30,6 @@
         margin-top: 20px;
       }
 
-
-
       h2 {
         color: black;
         font-size: 1em;
@@ -62,6 +60,19 @@
 
       a:hover {
         text-decoration: none;
+      }
+
+      .image-row {
+        display: flex;
+        justify-content: space-evenly; /* spaces images evenly in the row */
+        align-items: center;           /* vertically centers them */
+        padding: 10px;
+      }
+
+      .image-row img {
+        max-width: 100%;
+        height: auto;
+        padding: 5px;
       }
     </style>
   </head>
@@ -121,8 +132,10 @@
       <!-- I really want this space to show how I can produce academic & professional work.   -->
       These images shows you the first pages I coded. They demonstrates basic coding skills. 
       <br>
-      <img src="images/First_intro_page.png" alt="screenshot of cow_intro.html" width="300px" padding="5px"/>
-      <img src="images/First_site_screenshot.png" alt="screenshot of intro.html for class" width="300px" padding="5px"/>
+      <div class="image-row">
+        <img src="images/First_intro_page.png" alt="screenshot of cow_intro.html" width="300px" />
+        <img src="images/First_site_screenshot.png" alt="screenshot of intro.html for class" width="300px" />
+      </div>
     </p>
 
     <section id="artSamples">
