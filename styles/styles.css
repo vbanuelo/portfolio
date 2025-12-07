@@ -22,16 +22,19 @@ h1 {
   text-align: center; /*I always think that names should be centered.  */
   border-bottom: 1px solid #375e97;
   margin-top: 20px;
+  background-color: rgb(191, 216, 245);
 }
 
 h2 {
   color: black;
   font-size: 1em;
+  background-color: lightgrey;
 }
 
 .job-title {
   color: black;
   font-weight: bold;
+  background-color: lightgray;
 }
 
 .blocks {
